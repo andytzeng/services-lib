@@ -4,9 +4,6 @@ python:
   - '3.4'
   - '3.5'
   - '3.6'
-env:
-  global:
-    - secure: MKsfJ8DYCRx7I9bX84ww53Nf/0tgdNYDL1zT17itGfxz9C23rJbiiRrpRyKLCibn+c6ognfighxgnhBTis58m5a/8/06fC/rIM4yVBrok/m/8DNnH5p35QoH3V23TC08nWkwCZfh42DzOX0+63ODK0pvrD2bjDM4cs6+uVnCr3SBEwkOiE087SHGOZAkf4KV9hqm1qqJj0WYWgw1hVYWzfWPLI6jr9kLh1hJ2puMAs6/cry9AuhwyEb3ti+Rng6sIb7Rm86JTaVDNRJlN1Y4IWoINmVP1HhwKOuBVszCUCJwqWfupXrMkeJN2TIsZhM9f27WjjONAGDj3C08pO36qH8pOwTVPjs4Z+loFf5HpIjO+yfYzJ98TENrP39ipwWlVv9L7x0qMP3cLnSIn/TVIM/AXC2dTR3SotU76bX9wNGkdrKfAoeSVc0IJgLrLBtXy244lY9KbO9qvu5f4xyRHrMYVsYZkV+FJ1TQtPDrGu05yiu1Tx5zMb6MGh0YlOYh4YTWOdElXOHw6A0Il+pCLFeEeWh435GHNHpNevudtZ/f4gmtYt65gx2VRhGm2jgefRU+h/Mb2SAB77zIdMXDRTZjMawWqL4enkzJRhF3WT75D0zdNjCrdExMe9muCKbnbpdZHoRniS19u3A++FZt2/j/PkhbYQUuaFEVfSTCDWM=
 install: pip install tox-travis
 script: tox --travis-after
 notifications:
